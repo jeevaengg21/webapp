@@ -26,3 +26,9 @@ console.log(`Example app listening on port ${port}`)
 
 https://reactjs.org/docs/faq-ajax.html
 https://www.geeksforgeeks.org/get-and-post-method-using-fetch-api/
+
+# Dealing with CORS in Create React App
+
+`Only for development mode`
+
+https://www.telerik.com/blogs/dealing-with-cors-in-create-react-app
