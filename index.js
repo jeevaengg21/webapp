@@ -58,6 +58,18 @@ app.put("/todo/:id", (req, res) => {
     res.send('update todo')
 })
 
+app.put("/todo/done/:id", (req, res) => {
+    const id = req.params.id
+    const updatedTodo = todos.map(todo => {
+        if (todo.id == id) {
+            todo["done"] = "y"
+        }
+        return todo
+    })
+    todos = [...updatedTodo]
+    res.send({})
+})
+
 app.delete("/todo/:id", (req, res) => {
     const id = req.params.id
     const updatedTodo = todos.map(todo => {

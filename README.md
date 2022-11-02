@@ -20,4 +20,9 @@ app.listen(port, () => {
 console.log(`Example app listening on port ${port}`)
 })
 
+# How to make http call with Fetch
+
+https://reactjs.org/docs/faq-ajax.html
+https://www.geeksforgeeks.org/get-and-post-method-using-fetch-api/
+
 ```
